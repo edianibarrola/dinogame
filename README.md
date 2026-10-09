@@ -1,4 +1,4 @@
-# Fern Hollow — browser playtest
+# Fern Hollow â€” browser playtest
 
 Play at **https://www.edianibarrola.com/dinogame/**.
 
