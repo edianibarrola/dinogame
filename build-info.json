@@ -1,0 +1,29 @@
+{
+  "sourceCommit": "dc25d3c8296672c4fe7310dfd7c2130ff5a6e212",
+  "builtAt": "2026-10-09T21:31:42.370903+00:00",
+  "windowsChecks": 25,
+  "browserChecks": [
+    "desktop load and keyboard interaction",
+    "emulated simultaneous movement and bite",
+    "emulated touch release"
+  ],
+  "realPhoneTested": false,
+  "files": {
+    "Build/BrowserBuild.data.unityweb": {
+      "bytes": 3826169,
+      "sha256": "3bb1f9d11d59dd98fbd0a0dee449b493984d9149d62df2569f03fcbe04b20eb4"
+    },
+    "Build/BrowserBuild.framework.js.unityweb": {
+      "bytes": 74370,
+      "sha256": "ce9130e8fc5c6d29d457f033714a30d33deea6f63fa051ec8b022b559928b553"
+    },
+    "Build/BrowserBuild.loader.js": {
+      "bytes": 48779,
+      "sha256": "7f69ab077d4f1ed1e5f29ed87f8884e434b5ea72311b0b2207c688ced223bcce"
+    },
+    "Build/BrowserBuild.wasm.unityweb": {
+      "bytes": 5510979,
+      "sha256": "e0de9e9b5d21384f16ce1a13ab6fc2cdd1861cc92c726f9b593c21450b4c4875"
+    }
+  }
+}
