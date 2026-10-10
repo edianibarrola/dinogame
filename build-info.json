@@ -1,29 +1,31 @@
 {
-  "sourceCommit": "dc25d3c8296672c4fe7310dfd7c2130ff5a6e212",
-  "builtAt": "2026-10-09T21:31:42.370903+00:00",
-  "windowsChecks": 25,
+  "sourceCommit": "43b452817442d833e1285693146bec98f8b01b39",
+  "builtAt": "2026-10-10T04:32:08.322875+00:00",
+  "windowsChecks": 57,
   "browserChecks": [
-    "desktop load and keyboard interaction",
-    "emulated simultaneous movement and bite",
-    "emulated touch release"
+    "desktop load, menu and keyboard interaction",
+    "emulated simultaneous floating movement and bite",
+    "emulated touch release",
+    "desktop and emulated phone save/reload",
+    "playable herbivore hatch selection"
   ],
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 3826169,
-      "sha256": "3bb1f9d11d59dd98fbd0a0dee449b493984d9149d62df2569f03fcbe04b20eb4"
+      "bytes": 5881286,
+      "sha256": "ca7edf6dae8f4b0970251676f9368e994400805fe1e53a1e0fd5dc87b90847f8"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "bytes": 74370,
-      "sha256": "ce9130e8fc5c6d29d457f033714a30d33deea6f63fa051ec8b022b559928b553"
+      "bytes": 74517,
+      "sha256": "6e0011838a06d672c9dbb552a4ee4c57c46e8c941629924a6add0a5eeb02c2b2"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "7f69ab077d4f1ed1e5f29ed87f8884e434b5ea72311b0b2207c688ced223bcce"
+      "sha256": "6184109ac62ba2a2138ac12d938813144c757dfbf344872e334bd786d2c05513"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5510979,
-      "sha256": "e0de9e9b5d21384f16ce1a13ab6fc2cdd1861cc92c726f9b593c21450b4c4875"
+      "bytes": 5539012,
+      "sha256": "9f558c8734c401ec8ae7d0eefb7566efb40ba00cfe3171b7de66f4b8123a1248"
     }
   }
 }
