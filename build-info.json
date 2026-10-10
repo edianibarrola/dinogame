@@ -1,31 +1,33 @@
 {
-  "sourceCommit": "43b452817442d833e1285693146bec98f8b01b39",
-  "builtAt": "2026-10-10T04:32:08.322875+00:00",
-  "windowsChecks": 57,
+  "sourceCommit": "e3852b6029794819cb16f45b19299fdcbb1905b7",
+  "builtAt": "2026-10-10T05:39:26.246077+00:00",
+  "windowsChecks": 87,
   "browserChecks": [
     "desktop load, menu and keyboard interaction",
     "emulated simultaneous floating movement and bite",
     "emulated touch release",
     "desktop and emulated phone save/reload",
-    "playable herbivore hatch selection"
+    "playable herbivore hatch selection",
+    "desktop species ability",
+    "emulated ability with floating joystick"
   ],
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 5881286,
-      "sha256": "ca7edf6dae8f4b0970251676f9368e994400805fe1e53a1e0fd5dc87b90847f8"
+      "bytes": 5889430,
+      "sha256": "94640907bdee8c1a0a8353dda96d63bdc86e807dc80fc8b0fa938b97e6b97da1"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "bytes": 74517,
-      "sha256": "6e0011838a06d672c9dbb552a4ee4c57c46e8c941629924a6add0a5eeb02c2b2"
+      "bytes": 74569,
+      "sha256": "b7f3a596257571d817dc1b8018f50aa7ae8554d3705c96820ed3e33453c72155"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "6184109ac62ba2a2138ac12d938813144c757dfbf344872e334bd786d2c05513"
+      "sha256": "0f549e11fc58dcf6637daeb9dca15a8d3b811a71013b1cdd0be1342dc120d888"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5539012,
-      "sha256": "9f558c8734c401ec8ae7d0eefb7566efb40ba00cfe3171b7de66f4b8123a1248"
+      "bytes": 5561687,
+      "sha256": "edf12acad299c90cd4fbc48103ebf50b9db2a6fdabe6d55e25e9869e17c59a4c"
     }
   }
 }
