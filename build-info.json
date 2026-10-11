@@ -1,33 +1,33 @@
 {
-  "sourceCommit": "e3852b6029794819cb16f45b19299fdcbb1905b7",
-  "builtAt": "2026-10-10T05:39:26.246077+00:00",
-  "windowsChecks": 87,
+  "sourceCommit": "4a1491abe8bab2fda77e8283b19c291b7c5dfb83",
+  "builtAt": "2026-10-11T16:34:51.280945+00:00",
+  "windowsChecks": 104,
   "browserChecks": [
-    "desktop load, menu and keyboard interaction",
-    "emulated simultaneous floating movement and bite",
-    "emulated touch release",
-    "desktop and emulated phone save/reload",
-    "playable herbivore hatch selection",
-    "desktop species ability",
-    "emulated ability with floating joystick"
+    "desktop and two emulated phone layouts load and species selection",
+    "floating movement plus bite and separate ability",
+    "touch release clears held actions",
+    "adaptive drinking refills and releases",
+    "scent pulse produces nearby cues",
+    "all three layouts save and reload the active bloodline",
+    "hatching view stays clear and can be skipped"
   ],
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 5889430,
-      "sha256": "94640907bdee8c1a0a8353dda96d63bdc86e807dc80fc8b0fa938b97e6b97da1"
+      "bytes": 5927469,
+      "sha256": "1916ba146830b692d2da35aab571dc6d21fbc2b6ac931500fb22dca652358448"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "bytes": 74569,
-      "sha256": "b7f3a596257571d817dc1b8018f50aa7ae8554d3705c96820ed3e33453c72155"
+      "bytes": 74675,
+      "sha256": "7f0b0e7e1c4c97a888619fd12cb6f18b8e42f7b82ed12f6b7154dc66aa2234e5"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "0f549e11fc58dcf6637daeb9dca15a8d3b811a71013b1cdd0be1342dc120d888"
+      "sha256": "b827edd1370de4aa38124e97d1e91dc0f33e870c0fa77f98a8b023bb075c81b2"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5561687,
-      "sha256": "edf12acad299c90cd4fbc48103ebf50b9db2a6fdabe6d55e25e9869e17c59a4c"
+      "bytes": 5574720,
+      "sha256": "ae0a539450ef0e628b53b2ff42269c581879471bda83a6493b983bd0c8350e93"
     }
   }
 }
