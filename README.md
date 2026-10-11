@@ -16,3 +16,9 @@ Serve `index.html` over HTTP/HTTPS. Unity gzip fallback files use `.unityweb`, a
 The October 11 habitat pass reshapes the coast with bays, spreads 62 initial AI animals through feeding areas and shore habitats, and adds gradual population renewal. Blocking scenery uses the rendered rock/trunk mesh, with a recorded collision audit. Predators remember fleeing players, rex roar leaves a usable follow-up attack window, and corpse food stocks are reduced by body size.
 
 Touch interaction adapts to Eat/Graze/Drink and stays locked until release; a small alternate appears beside overlapping food and water. Scent (R or the touch button) gives short approximate bearings for nearby animals, food and freshwater. Hatching hides the normal HUD, and both 960x540 and 812x375 touch layouts are checked. Existing bloodlines and eggs are preserved; the old NPC population refreshes once for the new habitats. Quests and skin work remain deferred.
+
+The group and escape update adds predator fatigue, cautious herbivores and local protection for youngsters. Spend time with healthy adults of your species to earn acceptance; parents respond from farther away. Groups assess threats, limit interceptors and retreat when outmatched, so protection depends on the situation.
+
+Connected tall grass and fern beds now support hiding: crouch quietly inside for a moment, then stay quiet. Sprinting or attacking reveals you, and big adults cannot disappear in low grass. Predators search your last sighting. An eye indicator shows whether you are concealed, spotted or too tall for the cover.
+
+Scent now forms a compass around your dinosaur, using shared illustrated icons. Mouse wheel, HUD +/- and two-finger background pinch control zoom. Movement plus an action touch still works normally. Hatching opens the shell before revealing the baby. The population refreshes once for these habitats and groups; player bloodlines and eggs are retained.

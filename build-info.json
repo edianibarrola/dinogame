@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "2d1444b224a6659192317d76eb4bb707b3233f56",
-  "builtAt": "2026-10-11T16:40:27.097504+00:00",
-  "windowsChecks": 105,
+  "sourceCommit": "9d1a9a646635fe92d367aff4a119999344062342",
+  "builtAt": "2026-10-11T21:39:53.237233+00:00",
+  "windowsChecks": 135,
   "browserChecks": [
     "desktop and two emulated phone layouts load and species selection",
     "floating movement plus bite and separate ability",
@@ -9,25 +9,28 @@
     "adaptive drinking refills and releases",
     "scent pulse produces nearby cues",
     "all three layouts save and reload the active bloodline",
-    "hatching view stays clear and can be skipped"
+    "hatching view stays clear and can be skipped",
+    "bounded HUD and mouse zoom",
+    "two-finger pinch and remaining-finger release",
+    "joystick plus attack is not mistaken for pinch"
   ],
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 5925302,
-      "sha256": "2f9834d4d090bc895c126417dc92be6669782b3180b93ec484612664b73ae870"
+      "bytes": 7319063,
+      "sha256": "9f6740f560c38ba54d47504b4d6210eb8eeb291b71aec042c1efdcb4706cd93e"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "bytes": 74675,
-      "sha256": "fdc7de4f4eb947ba665c4debc4f6967583e8986a868b0aa5672e9cbb9a2becfa"
+      "bytes": 74748,
+      "sha256": "749f0bb84ad583c8398e2e1c1ee13e4d5626709ea61eac5180a8d7d0fef0b08c"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "af8bac78eb31f630daa0d234bfdb1cc06765617649c03d7fd90dd46cc4b0b59e"
+      "sha256": "91c659bdae22af9da66e1d62bcfcffe0277eed13893c62d0e773b0e2b74231c1"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5574863,
-      "sha256": "6e9f3be346c17d3f5e420e80b152f75203f9e8c2ae4e46782940fb0f9eb0c505"
+      "bytes": 5600890,
+      "sha256": "f314b602b630754516f7d15df34985260f3fb2d6db7ddae8f60ba1b2ddf76c1b"
     }
   }
 }
