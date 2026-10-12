@@ -1,8 +1,10 @@
 {
-  "sourceCommit": "9d1a9a646635fe92d367aff4a119999344062342",
-  "builtAt": "2026-10-11T21:39:53.237233+00:00",
-  "windowsChecks": 135,
+  "sourceCommit": "1c3a96c671754ffaa1738fd829b3945b610e3268",
+  "builtAt": "2026-10-12T02:33:52.980594+00:00",
+  "windowsChecks": 187,
   "browserChecks": [
+    "independent skin color/pattern controls and species collections",
+    "living family species switching and reload",
     "desktop and two emulated phone layouts load and species selection",
     "floating movement plus bite and separate ability",
     "touch release clears held actions",
@@ -17,20 +19,20 @@
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 7319063,
-      "sha256": "9f6740f560c38ba54d47504b4d6210eb8eeb291b71aec042c1efdcb4706cd93e"
+      "bytes": 8414486,
+      "sha256": "2e4bf6f0c7a633e6be7058c5b8871c51565ef551b410c984963a3c85f3006074"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "bytes": 74748,
-      "sha256": "749f0bb84ad583c8398e2e1c1ee13e4d5626709ea61eac5180a8d7d0fef0b08c"
+      "bytes": 74774,
+      "sha256": "52d2fa64bd442e4e105a96eecd1b96aa2a06be95d9f2a5f8bc6c48180874f7b5"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "91c659bdae22af9da66e1d62bcfcffe0277eed13893c62d0e773b0e2b74231c1"
+      "sha256": "949f748fe2a6206d91e29386ec9441d596f243b23f6bd601038a524b29a38236"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5600890,
-      "sha256": "f314b602b630754516f7d15df34985260f3fb2d6db7ddae8f60ba1b2ddf76c1b"
+      "bytes": 5626382,
+      "sha256": "07d1eb6eb42af38f34dfb4bd7afef26e4a952d8d524c766987fab0f33d89efeb"
     }
   }
 }
