@@ -1,9 +1,12 @@
 {
-  "sourceCommit": "1c3a96c671754ffaa1738fd829b3945b610e3268",
-  "builtAt": "2026-10-12T02:33:52.980594+00:00",
-  "windowsChecks": 187,
+  "sourceCommit": "db99b22cc03a705d83cad8d0c60f49c881862ace",
+  "builtAt": "2026-10-14T01:08:23.384505+00:00",
+  "windowsChecks": 220,
   "browserChecks": [
-    "independent skin color/pattern controls and species collections",
+    "authored belly protection, eight markings and four independent colors",
+    "editable named gallery, duplicate/delete, locked options and save reload",
+    "portrait and high-DPI touch editor layouts",
+    "ten-minute feeding-ground ecology simulation",
     "living family species switching and reload",
     "desktop and two emulated phone layouts load and species selection",
     "floating movement plus bite and separate ability",
@@ -19,20 +22,20 @@
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 8414486,
-      "sha256": "2e4bf6f0c7a633e6be7058c5b8871c51565ef551b410c984963a3c85f3006074"
+      "bytes": 16367172,
+      "sha256": "5a14d785cb89ec1569a8080834ba8d2e6fdff8d001142fed08a0735d83bf29fa"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "bytes": 74774,
-      "sha256": "52d2fa64bd442e4e105a96eecd1b96aa2a06be95d9f2a5f8bc6c48180874f7b5"
+      "bytes": 75714,
+      "sha256": "cf0843f16ecaa134f293b77c05671d6368d58e2b3dfc86bf1895707b808825d9"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "949f748fe2a6206d91e29386ec9441d596f243b23f6bd601038a524b29a38236"
+      "sha256": "1f334e2c28ed53236e75964727f5887720bc9fdfd903f0ab020501f8cc0ee3f6"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5626382,
-      "sha256": "07d1eb6eb42af38f34dfb4bd7afef26e4a952d8d524c766987fab0f33d89efeb"
+      "bytes": 5690418,
+      "sha256": "2aaa8bec74cef182f8b38dbd1c726dbf3279ea29eac94ee92a83115420557e06"
     }
   }
 }

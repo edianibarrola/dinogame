@@ -11,16 +11,18 @@
 #loading{position:absolute;inset:0;display:grid;place-content:center;text-align:center;background:#18392e;padding:30px;gap:14px}
 h1{margin:0;font-size:34px}p{margin:0;line-height:1.5;max-width:480px}progress{width:100%;height:12px;accent-color:#b5ce7a}
 #rotate{display:none;position:absolute;inset:0;background:#18392e;place-content:center;text-align:center;padding:30px;z-index:5}
-@media (orientation:portrait) and (pointer:coarse){#rotate{display:grid}}
+
 </style>
 </head>
 <body>
 <canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="Fern Hollow survival playtest"></canvas>
 <div id="loading"><h1>Fern Hollow</h1><p>Loading the clearing…</p><progress id="progress" max="1" value="0"></progress><p id="status">Phone: turn sideways. Touch anywhere to move.<br>PC: WASD, Shift sprint, hold Space to bite.</p></div>
-<div id="rotate"><h1>Turn your phone sideways</h1><p>The clearing needs a little more room.</p></div>
+<div id="rotate"><h1>Turn your phone sideways</h1><p>Exploring works best in landscape. You can customize looks upright.</p></div>
 <script src="Build/BrowserBuild.loader.js"></script>
 <script>
 const canvas=document.getElementById('unity-canvas');
+function updateRotation(){const portrait=window.matchMedia('(orientation:portrait) and (pointer:coarse)').matches;const family=window.fernFamily;const browse=window.fernState?.menu||family?.studio||family?.panel||family?.stats||family?.eggs||window.fernUI?.hatch;const blocked=portrait&&!browse;window.fernOrientationPaused=blocked;document.getElementById('rotate').style.display=blocked?'grid':'none';}
+window.addEventListener('resize',updateRotation);setInterval(updateRotation,100);updateRotation();
 canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('touchmove',e=>e.preventDefault(),{passive:false});
 createUnityInstance(canvas,{

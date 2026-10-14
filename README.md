@@ -30,8 +30,15 @@ Each species supports up to eight living owned dinosaurs, separate from wild AI.
 
 Nine genetic stats have modest species-independent limits and a 36-point total cap. Each generation gains one point in adult potential beyond the stronger parent until the limit, with an occasional extra point mutation. Shared traits persist, and clutch siblings remain the same generation. Compare both eggs before choosing.
 
-Appearance Studio offers twelve colors and Plain, Spots, Stripes, Chevrons and Patches. Body color, accent color, pattern color, pattern type and pattern size are independent. Looks belong to one dinosaur species and can be collected and reused for fresh hatches or chosen offspring. New offspring may inherit appearance components and an occasional color variation separately from genes. Preview skins on the actual model; further visual tuning remains welcome.
+Appearance Studio offers twelve colors and Plain, Spots, Stripes, Side stripe, Patches, Rings, Diamonds and Freckles. Body color, belly color, secondary color, pattern color, pattern type and pattern size are independent. Looks belong to one dinosaur species and can be collected and reused for fresh hatches or chosen offspring. New offspring may inherit appearance components and an occasional color variation separately from genes. Preview skins on the actual model; further visual tuning remains welcome.
 
 Hunting commitments now survive repeated bites, and actual movement determines stamina use. AI feeding reservations are local. The lower Rex back stripe deforms less in the corrected drinking pose. Six springs, distinct dinosaur home groups and sixteen cover areas support the island.
 
-Validation: 187 native gameplay checks, including a 2,000-generation genetic simulation, plus desktop and two emulated phone browser layouts. Physical phone performance remains unverified. Quests, caves, multiplayer, paid cosmetics and fully modeled carcass stages remain future work.
+Validation: 220 native gameplay checks, including a 2,000-generation genetic simulation, plus desktop and two emulated phone browser layouts. Physical phone performance remains unverified. Quests, caves, multiplayer, paid cosmetics and fully modeled carcass stages remain future work.
+
+
+## Skin and ecology rework
+
+Explicit belly/secondary/marking regions, eight patterns, a named editable thumbnail collection and per-species progress unlocks replace the initial skin controls. Replacement hatches preserve genes without rerolling. Forty target wild animals travel among twelve feeding grounds and freshwater sources, avoid observed danger and return toward shelter; resource stocks persist and recover gradually. Smaller dinosaur bodies provide less food.
+
+Validated with 220 native checks, a ten-minute autonomous ecology simulation, five editor browser layouts (including portrait and high-DPI touch) and three survival browser layouts. Physical phone performance still needs playtesting.
