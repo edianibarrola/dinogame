@@ -34,11 +34,15 @@ Appearance Studio offers twelve colors and Plain, Spots, Stripes, Side stripe, P
 
 Hunting commitments now survive repeated bites, and actual movement determines stamina use. AI feeding reservations are local. The lower Rex back stripe deforms less in the corrected drinking pose. Six springs, distinct dinosaur home groups and sixteen cover areas support the island.
 
-Validation: 220 native gameplay checks, including a 2,000-generation genetic simulation, plus desktop and two emulated phone browser layouts. Physical phone performance remains unverified. Quests, caves, multiplayer, paid cosmetics and fully modeled carcass stages remain future work.
+Validation: 254 native gameplay checks, including a 2,000-generation genetic simulation, plus desktop and two emulated phone browser layouts. Physical phone performance remains unverified. Quests, caves, multiplayer, paid cosmetics and fully modeled carcass stages remain future work.
 
 
 ## Skin and ecology rework
 
 Explicit belly/secondary/marking regions, eight patterns, a named editable thumbnail collection and per-species progress unlocks replace the initial skin controls. Replacement hatches preserve genes without rerolling. Forty target wild animals travel among twelve feeding grounds and freshwater sources, avoid observed danger and return toward shelter; resource stocks persist and recover gradually. Smaller dinosaur bodies provide less food.
 
-Validated with 220 native checks, a ten-minute autonomous ecology simulation, five editor browser layouts (including portrait and high-DPI touch) and three survival browser layouts. Physical phone performance still needs playtesting.
+Validated with 254 native checks, a ten-minute autonomous ecology simulation, five editor browser layouts (including portrait and high-DPI touch) and three survival browser layouts. Physical phone performance still needs playtesting.
+
+Final follow-up seats the Triceratops horn roots into the head. Thirty-four additional gameplay scenarios verify starter resource routes, actual hatchling interactions, finite feeding and an active predator escape. The private source includes an engagement rubric separating mechanical release checks from human judgments of long-term enjoyment.
+
+Navigation now caches conservative clearance for each creature size range, preventing an adult from reusing hatchling-sized gaps. Adult freshwater routes are checked after smaller animals have used the navigation cache.

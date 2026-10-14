@@ -1,12 +1,14 @@
 {
-  "sourceCommit": "db99b22cc03a705d83cad8d0c60f49c881862ace",
-  "builtAt": "2026-10-14T01:08:23.384505+00:00",
-  "windowsChecks": 220,
+  "sourceCommit": "fb1c493ad12ea33d5dbbcb0ea8aee5f7db1334db",
+  "builtAt": "2026-10-14T02:04:08.168498+00:00",
+  "windowsChecks": 254,
   "browserChecks": [
     "authored belly protection, eight markings and four independent colors",
     "editable named gallery, duplicate/delete, locked options and save reload",
     "portrait and high-DPI touch editor layouts",
     "ten-minute feeding-ground ecology simulation",
+    "all four playable models, appearance previews, movement and family reload on desktop/touch",
+    "thirty-four extra starter feeding, water, cover, finite food and predator escape scenarios",
     "living family species switching and reload",
     "desktop and two emulated phone layouts load and species selection",
     "floating movement plus bite and separate ability",
@@ -22,20 +24,20 @@
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 16367172,
-      "sha256": "5a14d785cb89ec1569a8080834ba8d2e6fdff8d001142fed08a0735d83bf29fa"
+      "bytes": 16377937,
+      "sha256": "a2f9d82a3052ac9d63971bd1d9651912112eb53576a412f374ed12873a5585fa"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
       "bytes": 75714,
-      "sha256": "cf0843f16ecaa134f293b77c05671d6368d58e2b3dfc86bf1895707b808825d9"
+      "sha256": "b7cca09460eda17dbdd2309eeeb499846380a02dab7bf0397b5d453adde7839e"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "1f334e2c28ed53236e75964727f5887720bc9fdfd903f0ab020501f8cc0ee3f6"
+      "sha256": "c7dd190e91b7e1ad9281b7e665cda503826396cf53f7650af7f69bae20c625ad"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5690418,
-      "sha256": "2aaa8bec74cef182f8b38dbd1c726dbf3279ea29eac94ee92a83115420557e06"
+      "bytes": 5698243,
+      "sha256": "6a7648ab7faf9082146cbc02b17039591e24cd478e18c3006691226fe4ad6984"
     }
   }
 }
