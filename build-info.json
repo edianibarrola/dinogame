@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "fb1c493ad12ea33d5dbbcb0ea8aee5f7db1334db",
-  "builtAt": "2026-10-14T02:04:08.168498+00:00",
-  "windowsChecks": 254,
+  "sourceCommit": "db0bee61ae9e8e64180011cf7d0e82cb8fdfd7ad",
+  "builtAt": "2026-10-14T22:59:42.953629+00:00",
+  "windowsChecks": 265,
   "browserChecks": [
     "authored belly protection, eight markings and four independent colors",
     "editable named gallery, duplicate/delete, locked options and save reload",
@@ -19,25 +19,58 @@
     "hatching view stays clear and can be skipped",
     "bounded HUD and mouse zoom",
     "two-finger pinch and remaining-finger release",
-    "joystick plus attack is not mistaken for pinch"
+    "joystick plus attack is not mistaken for pinch",
+    "800 original and plain-custom parent clutches provide meaningful visible choices",
+    "preview-only studio preserves inherited egg appearance and older tinted skins",
+    "raptor and trike hatchling-to-offspring guided survival journeys with live AI",
+    "fresh game processes restore offspring genes, rendered colors and living parents",
+    "25-minute rex pressure hunt: 59 kills and ongoing critter renewal",
+    "herbivore local youngster protection precedes general avoidance",
+    "death-screen choice pauses NPC needs, movement and family aging"
   ],
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 16377937,
-      "sha256": "a2f9d82a3052ac9d63971bd1d9651912112eb53576a412f374ed12873a5585fa"
+      "bytes": 16544819,
+      "sha256": "4ab359b2ff53f30f7e7a3d480db077bbc16ecca9f7d1d5b86b5b507fbc7b1a13"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
       "bytes": 75714,
-      "sha256": "b7cca09460eda17dbdd2309eeeb499846380a02dab7bf0397b5d453adde7839e"
+      "sha256": "36ef9b13a2f2c592b5b87cbf456ec01f0ae7e34142d29d71dfb2cb984502e15a"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "c7dd190e91b7e1ad9281b7e665cda503826396cf53f7650af7f69bae20c625ad"
+      "sha256": "07836bceb97da023d813bd9ac51524b7f9ba6bbe6d5ed522d2f537319d1009cc"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5698243,
-      "sha256": "6a7648ab7faf9082146cbc02b17039591e24cd478e18c3006691226fe4ad6984"
+      "bytes": 5712883,
+      "sha256": "480509a05023ec8095848da615a331614bc297b51531c6a514c0f67c4c87c0f5"
+    }
+  },
+  "islandRevision": 6,
+  "islandRadius": 104,
+  "wildPopulationTarget": 52,
+  "playthroughs": {
+    "raptor": {
+      "hunts": 8,
+      "meals": 11,
+      "drinks": 5,
+      "offspring": true,
+      "reload": true
+    },
+    "trike": {
+      "hunts": 0,
+      "meals": 6,
+      "drinks": 5,
+      "offspring": true,
+      "reload": true
+    },
+    "rexPressure": {
+      "simulatedMinutes": 25,
+      "hunts": 59,
+      "meals": 35,
+      "drinks": 10,
+      "replacementCrittersObserved": 109
     }
   }
 }

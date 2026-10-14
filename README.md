@@ -8,7 +8,7 @@ Choose Rex, Raptor, Triceratops or Ankylosaurus. Resume your saved life, hatch o
 
 PC: WASD/arrows, Shift sprint, Ctrl sneak, hold Space/mouse for a forward bite, Q/right click for Roar/Pounce/Charge/rear Tail sweep, hold E to eat, hold F to drink, R for scent. Tab/Esc opens bloodlines, T opens Test tools, N lays an eligible nest. Phone: landscape, floating joystick anywhere outside the action buttons; toggle Sprint/Sneak, hold Bite and contextual Eat/Graze/Drink and tap the separate species ability button.
 
-Explore a bounded island with beach, plains, forest and six freshwater sources. Ocean water is undrinkable. Small crabs are hatchling prey; carcasses provide different finite food amounts. Raptors are threats; herbivores defend when provoked. Crabs and mammals protect territory against hatchlings and flee grown dinosaurs. Connected tree crowns, reliable mate lookup and persistent AI resource routes improve the island playtest. Orbiting gold stars show stuns, and small icons replace AI behavior labels. Compact survival meters and action docks keep the play view clearer; Test tools are accessed through bloodlines or T. This is an early single-player playtest. Saves belong to this browser/device; real phone performance, caves and multiplayer remain future work.
+Explore a bounded island with beach, plains, forest and ten freshwater sources. Ocean water is undrinkable. Small crabs are hatchling prey; carcasses provide different finite food amounts. Raptors are threats; herbivores defend when provoked. Crabs and mammals protect territory against hatchlings and flee grown dinosaurs. Connected tree crowns, reliable mate lookup and persistent AI resource routes improve the island playtest. Orbiting gold stars show stuns, and small icons replace AI behavior labels. Compact survival meters and action docks keep the play view clearer; Test tools are accessed through bloodlines or T. This is an early single-player playtest. Saves belong to this browser/device; real phone performance, caves and multiplayer remain future work.
 
 Serve `index.html` over HTTP/HTTPS. Unity gzip fallback files use `.unityweb`, allowing GitHub Pages hosting without custom compression headers. `.nojekyll` keeps player files intact. No private source or credentials are included.
 
@@ -32,17 +32,28 @@ Nine genetic stats have modest species-independent limits and a 36-point total c
 
 Appearance Studio offers twelve colors and Plain, Spots, Stripes, Side stripe, Patches, Rings, Diamonds and Freckles. Body color, belly color, secondary color, pattern color, pattern type and pattern size are independent. Looks belong to one dinosaur species and can be collected and reused for fresh hatches or chosen offspring. New offspring may inherit appearance components and an occasional color variation separately from genes. Preview skins on the actual model; further visual tuning remains welcome.
 
-Hunting commitments now survive repeated bites, and actual movement determines stamina use. AI feeding reservations are local. The lower Rex back stripe deforms less in the corrected drinking pose. Six springs, distinct dinosaur home groups and sixteen cover areas support the island.
+Hunting commitments now survive repeated bites, and actual movement determines stamina use. AI feeding reservations are local. The lower Rex back stripe deforms less in the corrected drinking pose. Ten springs, distinct dinosaur home groups and twenty-two cover areas support the island.
 
-Validation: 254 native gameplay checks, including a 2,000-generation genetic simulation, plus desktop and two emulated phone browser layouts. Physical phone performance remains unverified. Quests, caves, multiplayer, paid cosmetics and fully modeled carcass stages remain future work.
+Validation: 265 native gameplay checks, including a 2,000-generation genetic simulation, plus desktop and two emulated phone browser layouts. Physical phone performance remains unverified. Quests, caves, multiplayer, paid cosmetics and fully modeled carcass stages remain future work.
 
 
 ## Skin and ecology rework
 
-Explicit belly/secondary/marking regions, eight patterns, a named editable thumbnail collection and per-species progress unlocks replace the initial skin controls. Replacement hatches preserve genes without rerolling. Forty target wild animals travel among twelve feeding grounds and freshwater sources, avoid observed danger and return toward shelter; resource stocks persist and recover gradually. Smaller dinosaur bodies provide less food.
+Explicit belly/secondary/marking regions, eight patterns, a named editable thumbnail collection and per-species progress unlocks replace the initial skin controls. Replacement hatches preserve genes without rerolling. Fifty-two target wild animals travel among eighteen feeding grounds and freshwater sources, avoid observed danger and return toward shelter; resource stocks persist and recover gradually. Smaller dinosaur bodies provide less food.
 
-Validated with 254 native checks, a ten-minute autonomous ecology simulation, five editor browser layouts (including portrait and high-DPI touch) and three survival browser layouts. Physical phone performance still needs playtesting.
+Validated with 265 native checks, a ten-minute autonomous ecology simulation, five editor browser layouts (including portrait and high-DPI touch) and three survival browser layouts. Physical phone performance still needs playtesting.
 
 Final follow-up seats the Triceratops horn roots into the head. Thirty-four additional gameplay scenarios verify starter resource routes, actual hatchling interactions, finite feeding and an active predator escape. The private source includes an engagement rubric separating mechanical release checks from human judgments of long-term enjoyment.
 
 Navigation now caches conservative clearance for each creature size range, preventing an adult from reusing hatchling-sized gaps. Adult freshwater routes are checked after smaller animals have used the navigation cache.
+
+
+## October 14 survival pass
+
+The expanded island has about 87% more land area, ten freshwater sources and eighteen feeding grounds. Critter renewal continues after sustained hunting; vegetation recovers gradually. Predators finish brief inspection pauses and commit to appropriate hunts. Temporary food thought bubbles show meat/plant searches; combat alerts take priority.
+
+Each two-egg clutch offers visibly different appearances when both would otherwise match, including original-parent clutches. Egg choices name the appearance before hatching. Existing unlocks, families and saved looks are preserved; retrying death cannot reroll offspring.
+
+Guided survival playthroughs exercise normal movement, feeding, drinking, growth, nesting, incubation and offspring selection with live AI, in addition to native regression and browser touch checks. Controllers have map knowledge and accelerated time; human enjoyment and real-phone performance still require playtesting.
+
+Herbivore parents prioritize local youngster protection before general avoidance. NPC needs and family aging pause on the death screen while you choose a next life. New-process checks restore offspring identity, inherited stats, rendered appearance and the living parent.
