@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "db0bee61ae9e8e64180011cf7d0e82cb8fdfd7ad",
-  "builtAt": "2026-10-14T22:59:42.953629+00:00",
-  "windowsChecks": 265,
+  "sourceCommit": "37253b2258f6a0fa08b2bfebdfbab954faf47820",
+  "builtAt": "2026-10-15T01:32:28.410682+00:00",
+  "windowsChecks": 341,
   "browserChecks": [
     "authored belly protection, eight markings and four independent colors",
     "editable named gallery, duplicate/delete, locked options and save reload",
@@ -19,58 +19,80 @@
     "hatching view stays clear and can be skipped",
     "bounded HUD and mouse zoom",
     "two-finger pinch and remaining-finger release",
-    "joystick plus attack is not mistaken for pinch",
-    "800 original and plain-custom parent clutches provide meaningful visible choices",
-    "preview-only studio preserves inherited egg appearance and older tinted skins",
-    "raptor and trike hatchling-to-offspring guided survival journeys with live AI",
-    "fresh game processes restore offspring genes, rendered colors and living parents",
-    "25-minute rex pressure hunt: 59 kills and ongoing critter renewal",
-    "herbivore local youngster protection precedes general avoidance",
-    "death-screen choice pauses NPC needs, movement and family aging"
+    "joystick plus attack is not mistaken for pinch"
   ],
   "realPhoneTested": false,
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 16544819,
-      "sha256": "4ab359b2ff53f30f7e7a3d480db077bbc16ecca9f7d1d5b86b5b507fbc7b1a13"
+      "bytes": 17164741,
+      "sha256": "4e8b11407b5580e10ce54cf44f75458c85c7bd416a8279d1b93cdf92f7a22dc5"
     },
     "Build/BrowserBuild.framework.js.unityweb": {
       "bytes": 75714,
-      "sha256": "36ef9b13a2f2c592b5b87cbf456ec01f0ae7e34142d29d71dfb2cb984502e15a"
+      "sha256": "2f862c89a53ae19fd424efebafdc59a97cd49d4bedd599a8bad6764ac5ced6a9"
     },
     "Build/BrowserBuild.loader.js": {
       "bytes": 48779,
-      "sha256": "07836bceb97da023d813bd9ac51524b7f9ba6bbe6d5ed522d2f537319d1009cc"
+      "sha256": "fa1fb9bb12ce3e665e48c56dff5e07436405059d88db864ba4f0a4bd12a17ea9"
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5712883,
-      "sha256": "480509a05023ec8095848da615a331614bc297b51531c6a514c0f67c4c87c0f5"
+      "bytes": 5717848,
+      "sha256": "8e095d8342c65eb2c29453c0f93fdf35fe150107315f9b3b602841d69db59349"
     }
   },
-  "islandRevision": 6,
-  "islandRadius": 104,
-  "wildPopulationTarget": 52,
-  "playthroughs": {
-    "raptor": {
-      "hunts": 8,
-      "meals": 11,
-      "drinks": 5,
-      "offspring": true,
-      "reload": true
+  "islandRevision": 7,
+  "islandRadius": 150,
+  "wildFamiliesPerSpecies": 3,
+  "wildPopulationTarget": 78,
+  "freshwaterSources": 25,
+  "feedingGrounds": 34,
+  "coverAreas": 46,
+  "territoryValidation": {
+    "nativeChecks": 341,
+    "ecology": {
+      "passed": true,
+      "foodDepleted": true,
+      "simulatedSeconds": 600.0549926757812,
+      "longestMixedClumpSeconds": 0.0,
+      "maximumAlive": 84,
+      "maximumLocal": 5,
+      "travelingAnimals": 119,
+      "grazingAnimals": 46,
+      "drinkingAnimals": 62,
+      "returningAnimals": 66,
+      "remoteHuntFrames": 0,
+      "raisedMembersInitially": 0,
+      "raisedMembersAlive": 0,
+      "allocatedBytes": 108365605
     },
-    "trike": {
-      "hunts": 0,
-      "meals": 6,
-      "drinks": 5,
-      "offspring": true,
-      "reload": true
+    "fullFamilyEcology": {
+      "passed": true,
+      "foodDepleted": true,
+      "simulatedSeconds": 600.003173828125,
+      "longestMixedClumpSeconds": 0.0,
+      "maximumAlive": 113,
+      "maximumLocal": 9,
+      "travelingAnimals": 153,
+      "grazingAnimals": 63,
+      "drinkingAnimals": 91,
+      "returningAnimals": 97,
+      "remoteHuntFrames": 0,
+      "raisedMembersInitially": 31,
+      "raisedMembersAlive": 31,
+      "allocatedBytes": 112103628
     },
-    "rexPressure": {
-      "simulatedMinutes": 25,
-      "hunts": 59,
-      "meals": 35,
-      "drinks": 10,
-      "replacementCrittersObserved": 109
-    }
-  }
+    "journeys": [
+      "RESULT species=0 survived=True age=720.0 health=100.0 food=73.6 water=78.9 travel=3599.8 hunts=68 meals=38 drinks=9 nest=False offspring=False renewedCritters=169",
+      "RESULT species=1 survived=True age=1.1 health=100.0 food=74.9 water=79.9 travel=2176.2 hunts=3 meals=13 drinks=5 nest=True offspring=True renewedCritters=74",
+      "RESULT species=2 survived=True age=1.1 health=100.0 food=74.9 water=79.9 travel=1476.5 hunts=1 meals=7 drinks=5 nest=True offspring=True renewedCritters=74"
+    ],
+    "offspringReloads": 2
+  },
+  "nativeCheckDescriptions": [
+    "twelve wild dinosaur home territories and local food/water routes",
+    "camped depleted habitat does not block prey renewal elsewhere",
+    "own-family bite/pounce/roar/charge/tail protection and wild rex roar targeting",
+    "committed bite and pounce cannot transfer hits after losing their target",
+    "raised-resident homes and wild breeding cooldowns survive reload"
+  ]
 }
