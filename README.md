@@ -61,3 +61,8 @@ Herbivore parents prioritize local youngster protection before general avoidance
 ## Territorial island update
 
 The larger, irregular island supports three wild families of each dinosaur species, with 78 wild animals as its population target. Local home ranges, nearby food and freshwater, off-camera replenishment and saved raised-family homes reduce crowding and long-distance targeting. Actual family members are excluded from attacks; other raised species remain vulnerable. Bites and pounces retain their chosen target, and unrelated wild Rexes can be stunned by roar. Raised animals have a small family marker and rate-limited attack warnings. This build passes 341 native checks, fresh and full-family ecology runs, survival-to-offspring journeys and browser touch checks. Physical-phone performance still needs playtesting.
+
+
+## AI timing stability
+
+Group defenders commit to a stable retreat and require clearer recovery before fighting again. Herbivore alerts use separate enter/leave distances. AI strikes keep their windup target and cannot transfer or repeat damage. Verified with 351 full native regression checks, 25 timing checks including actual 15/30/60/120 FPS hunts and alert-boundary tests, and desktop plus two emulated touch-browser layouts. Earlier ecology and journey reports refer to the preceding territory release. Physical-phone performance remains unverified.
