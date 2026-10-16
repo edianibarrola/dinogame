@@ -1,96 +1,45 @@
 {
-  "sourceCommit": "d5cd4ee64cfa15aa57038f6498eda1857ab029c7",
-  "builtAt": "2026-10-15T01:58:49.108634+00:00",
-  "windowsChecks": 351,
+  "sourceCommit": "9f92db276ea40b478672e3b6ce19658c7fad393f",
+  "builtAt": "2026-10-16T00:53:17.4415007Z",
+  "releasePhase": "human playtest",
+  "worldRevision": 8,
+  "windowsChecks": 440,
+  "focusedBehaviorChecks": 103,
+  "regionalChecks": 54,
+  "timingChecks": 38,
+  "suitesOverlap": true,
   "browserChecks": [
-    "desktop and two emulated phone layouts: load, movement, separate ability, scent, save/reload, hatching and zoom",
-    "both touch layouts: floating joystick with attack, pinch, finger release, adaptive drinking"
+    "desktop1440x900 load, movement, ability, scent, zoom, save/reload and hatching",
+    "touch960x540 and812x375 floating joystick, attack, ability, pinch/release, contextual drinking, save/reload and hatching"
   ],
   "realPhoneTested": false,
+  "longEcologyValidatedForThisCandidate": false,
+  "guidedJourneysRunForThisCandidate": false,
+  "world": {
+    "feedingGrounds": 24,
+    "regions": 4,
+    "radius": 150,
+    "freshwaterSources": 24,
+    "wildFamiliesPerSpecies": 3,
+    "initialWildPopulation": 78,
+    "coverAreas": 36
+  },
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "bytes": 17166065,
-      "sha256": "60225df1c4625c0e8768fe574dbba0a0ba63cf34a544a06843a6f57c5047f0e6"
+      "sha256": "41a39bd34bd46cc10e3aec42487c61cdfefeba86eb9f791c671d431a7245a58c",
+      "bytes": 17207051
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "bytes": 75714,
-      "sha256": "b8e0738a3c70e7487ec57c12d7e7347dd6ec9153c09a2cbd91a32886a48f08d9"
+      "sha256": "bb29c6c2003fb469c65e975cad6df75df72071c0089864b66c19fd18f96524c6",
+      "bytes": 75714
     },
     "Build/BrowserBuild.loader.js": {
-      "bytes": 48779,
-      "sha256": "47e993144dc9c0e6c504e1b499837eace62b4cedee18caef3aa479ebb27ed7da"
+      "sha256": "580743ed1ae991eb4a2e43809efd6c10259b36917171e5cbb0232f1d0593b966",
+      "bytes": 48779
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "bytes": 5720450,
-      "sha256": "275715ff3a502216c994049e14246a99c46f019fdeae0c2030113438ff6b1a27"
+      "sha256": "0de46c86d9d4ae05c45c32b1ac3258fae9f59b43d619549420c96f0b19dc2561",
+      "bytes": 5793527
     }
-  },
-  "islandRevision": 7,
-  "islandRadius": 150,
-  "wildFamiliesPerSpecies": 3,
-  "wildPopulationTarget": 78,
-  "freshwaterSources": 25,
-  "feedingGrounds": 34,
-  "coverAreas": 46,
-  "nativeCheckDescriptions": [
-    "twelve wild dinosaur home territories and local food/water routes",
-    "camped depleted habitat does not block prey renewal elsewhere",
-    "own-family bite/pounce/roar/charge/tail protection and wild rex roar targeting",
-    "committed bite and pounce cannot transfer hits after losing their target",
-    "raised-resident homes and wild breeding cooldowns survive reload",
-    "seconds-based group retreat with stable destination and separate recovery thresholds",
-    "herbivore alert boundary hysteresis at actual 15/30/60/120 FPS limits",
-    "NPC strike commitment, escaped-target safety and single impact consumption"
-  ],
-  "priorTerritoryValidation": {
-    "sourceCommit": "37253b2258f6a0fa08b2bfebdfbab954faf47820",
-    "results": {
-      "nativeChecks": 341,
-      "ecology": {
-        "passed": true,
-        "foodDepleted": true,
-        "simulatedSeconds": 600.0549926757812,
-        "longestMixedClumpSeconds": 0.0,
-        "maximumAlive": 84,
-        "maximumLocal": 5,
-        "travelingAnimals": 119,
-        "grazingAnimals": 46,
-        "drinkingAnimals": 62,
-        "returningAnimals": 66,
-        "remoteHuntFrames": 0,
-        "raisedMembersInitially": 0,
-        "raisedMembersAlive": 0,
-        "allocatedBytes": 108365605
-      },
-      "fullFamilyEcology": {
-        "passed": true,
-        "foodDepleted": true,
-        "simulatedSeconds": 600.003173828125,
-        "longestMixedClumpSeconds": 0.0,
-        "maximumAlive": 113,
-        "maximumLocal": 9,
-        "travelingAnimals": 153,
-        "grazingAnimals": 63,
-        "drinkingAnimals": 91,
-        "returningAnimals": 97,
-        "remoteHuntFrames": 0,
-        "raisedMembersInitially": 31,
-        "raisedMembersAlive": 31,
-        "allocatedBytes": 112103628
-      },
-      "journeys": [
-        "RESULT species=0 survived=True age=720.0 health=100.0 food=73.6 water=78.9 travel=3599.8 hunts=68 meals=38 drinks=9 nest=False offspring=False renewedCritters=169",
-        "RESULT species=1 survived=True age=1.1 health=100.0 food=74.9 water=79.9 travel=2176.2 hunts=3 meals=13 drinks=5 nest=True offspring=True renewedCritters=74",
-        "RESULT species=2 survived=True age=1.1 health=100.0 food=74.9 water=79.9 travel=1476.5 hunts=1 meals=7 drinks=5 nest=True offspring=True renewedCritters=74"
-      ],
-      "offspringReloads": 2
-    }
-  },
-  "timingChecks": 25,
-  "timingSamples": [
-    "TIMING_SAMPLE cap=15 observedFPS=15.0 elapsed=6.013 damage=2.60",
-    "TIMING_SAMPLE cap=30 observedFPS=29.9 elapsed=6.024 damage=2.60",
-    "TIMING_SAMPLE cap=60 observedFPS=59.5 elapsed=6.012 damage=2.60",
-    "TIMING_SAMPLE cap=120 observedFPS=119.3 elapsed=6.008 damage=2.60"
-  ]
+  }
 }
