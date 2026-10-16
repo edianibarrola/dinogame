@@ -1,16 +1,10 @@
 {
-  "sourceCommit": "9f92db276ea40b478672e3b6ce19658c7fad393f",
-  "builtAt": "2026-10-16T00:53:17.4415007Z",
   "releasePhase": "human playtest",
   "worldRevision": 8,
-  "windowsChecks": 440,
-  "focusedBehaviorChecks": 103,
-  "regionalChecks": 54,
-  "timingChecks": 38,
-  "suitesOverlap": true,
+  "windowsChecks": 447,
   "browserChecks": [
-    "desktop1440x900 load, movement, ability, scent, zoom, save/reload and hatching",
-    "touch960x540 and812x375 floating joystick, attack, ability, pinch/release, contextual drinking, save/reload and hatching"
+    "desktop1440x900 reset confirmation/cancel, saved progress, full reset, reload, first hatch and movement",
+    "touch960x540 and812x375 same reset flow plus floating joystick/bite and release"
   ],
   "realPhoneTested": false,
   "longEcologyValidatedForThisCandidate": false,
@@ -24,22 +18,26 @@
     "initialWildPopulation": 78,
     "coverAreas": 36
   },
+  "resetChecks": 7,
+  "priorRegionalValidation": "See source docs/RegionalAIRelease.txt for preceding release checks; focused suites not rerun for reset-only update",
+  "sourceCommit": "81c1fc4652231598b6972d68767226dfdc53947c",
+  "builtAt": "2026-10-16T01:20:51.5739808Z",
   "files": {
     "Build/BrowserBuild.data.unityweb": {
-      "sha256": "41a39bd34bd46cc10e3aec42487c61cdfefeba86eb9f791c671d431a7245a58c",
-      "bytes": 17207051
+      "sha256": "00be9443ff92e98c25a3e903f0c3bbc2113ea66df7bf4373e7e0a1d3ec0456f9",
+      "bytes": 17208486
     },
     "Build/BrowserBuild.framework.js.unityweb": {
-      "sha256": "bb29c6c2003fb469c65e975cad6df75df72071c0089864b66c19fd18f96524c6",
+      "sha256": "77cba2f26cc9173e27711ce6eda965c1a927736dd9a8d1a2474642d58a8c728a",
       "bytes": 75714
     },
     "Build/BrowserBuild.loader.js": {
-      "sha256": "580743ed1ae991eb4a2e43809efd6c10259b36917171e5cbb0232f1d0593b966",
+      "sha256": "4f0a18181352b90e35548e8279341dad3ee3dd77579992a3d07fe5583a9917e0",
       "bytes": 48779
     },
     "Build/BrowserBuild.wasm.unityweb": {
-      "sha256": "0de46c86d9d4ae05c45c32b1ac3258fae9f59b43d619549420c96f0b19dc2561",
-      "bytes": 5793527
+      "sha256": "5a7848f4311f871b0c6862b9e9c2da74a74c0cfeb14bd0216e95b5130cecd189",
+      "bytes": 5797345
     }
   }
 }
